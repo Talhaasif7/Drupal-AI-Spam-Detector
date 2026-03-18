@@ -1,0 +1,7 @@
+gsoc_ai_moderator.settings:
+  path: '/admin/config/content/gsoc-ai-moderator'
+  defaults:
+    _form: '\Drupal\gsoc_ai_moderator\Form\ModeratorSettingsForm'
+    _title: 'AI moderator settings'
+  requirements:
+    _permission: 'administer site configuration'

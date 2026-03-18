@@ -1,0 +1,4 @@
+services:
+  gsoc_ai_moderator.content_moderator:
+    class: Drupal\gsoc_ai_moderator\Service\ContentModerator
+    arguments: ['@config.factory', '@messenger', '@http_client']

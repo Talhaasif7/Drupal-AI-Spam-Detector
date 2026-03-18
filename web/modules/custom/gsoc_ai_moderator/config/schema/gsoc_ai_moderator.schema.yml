@@ -1,0 +1,15 @@
+gsoc_ai_moderator.settings:
+  type: config_object
+  label: 'GSoC AI Moderator settings'
+  mapping:
+    prohibited_keywords:
+      type: sequence
+      label: 'Forbidden keywords'
+      sequence:
+        type: text
+    use_ai:
+      type: boolean
+      label: 'Enable AI scanning'
+    ai_endpoint:
+      type: text
+      label: 'AI API endpoint URL'

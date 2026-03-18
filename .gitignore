@@ -1,0 +1,37 @@
+# Ignore configuration files that may contain sensitive information.
+web/sites/*/settings*.php
+web/sites/*/services*.yml
+web/sites/*/private
+web/sites/*/files
+web/sites/simpletest
+
+# Ignore paths that contain user-generated content.
+web/sites/*/files/
+web/sites/*/private/
+
+# Ignore Drupal core and vendor directories.
+# These are managed by Composer.
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Ignore DDEV specific files.
+.ddev/db-snapshots/
+.ddev/commands/
+.ddev/.webimageBuild/
+.ddev/import-db/
+.ddev/config.local.yaml
+
+# Ignore IDE and OS files.
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Ignore other environment specific files.
+.env
+.env.local
+node_modules/
