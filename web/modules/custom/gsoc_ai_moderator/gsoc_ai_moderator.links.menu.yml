@@ -1,6 +1,0 @@
-gsoc_ai_moderator.settings:
-  title: 'AI moderator settings'
-  description: 'Configure forbidden keywords and AI endpoint.'
-  parent: system.admin_config_content
-  route_name: gsoc_ai_moderator.settings
-  weight: 100

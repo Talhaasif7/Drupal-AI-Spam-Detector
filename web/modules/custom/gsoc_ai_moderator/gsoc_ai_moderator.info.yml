@@ -1,7 +1,0 @@
-name: 'GSoC AI Moderator'
-type: module
-description: 'A configurable prototype module that can flag toxic or unwanted text using keywords or an external AI service. Includes form validation and admin settings.'
-package: Custom
-core_version_requirement: ^10 || ^11
-config_dependencies:
-  - gsoc_ai_moderator.settings

@@ -1,6 +1,0 @@
-# Default settings for GSoC AI Moderator module.
-prohibited_keywords:
-  - SPAM
-use_ai: false
-ai_endpoint: ''
-# future: api_key, etc.
